@@ -65,7 +65,7 @@ const Rooms = () => {
       <div className="min-h-screen bg-gray-50">
 
         {/* Page Header */}
-        <div className="bg-blue-600 text-white py-12 px-4">
+        <div className="bg-gradient-to-br from-gray-900 to-blue-600 text-white py-12 px-4">
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-3xl md:text-4xl font-bold mb-3">
               Available Study Rooms

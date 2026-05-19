@@ -22,8 +22,8 @@ const Navbar = () => {
 
         {/* Logo */}
         <Link to="/" className="flex items-center gap-1">
-          <span className="text-2xl font-bold text-blue-600">Study</span>
-          <span className="text-2xl font-bold text-gray-800">Nook</span>
+          <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-gray-900 bg-clip-text text-transparent">Study</span>
+          <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-gray-900 bg-clip-text text-transparent">Nook</span>
         </Link>
 
         {/* Desktop Nav Links */}
@@ -127,12 +127,15 @@ const Navbar = () => {
                   <button
                     onClick={handleLogout}
                     className="w-full flex items-center gap-2 px-4 py-2 text-red-500 hover:bg-red-50 text-sm"
-                  >
-                    🚪 Logout
-                  </button>
-                </div>
-              )}
-            </div>
+          >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+                  </svg>
+                  Logout
+               </button>
+             </div>
+          )}
+         </div>
           )}
         </div>
 

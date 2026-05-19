@@ -30,17 +30,17 @@ const Home = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-24 px-4">
+      <section className="bg-gradient-to-br from-gray-900 to-blue-600 text-white py-24 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Find Your Perfect <span className="text-yellow-300">Study Room</span>
+            Find Your Perfect <span className="text-gray-900">Study Room</span>
           </h1>
           <p className="text-lg md:text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
             Browse and book quiet, private study rooms in your library. List your own room and earn.
           </p>
           <Link
             to="/rooms"
-            className="inline-block bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-full hover:bg-yellow-300 transition text-lg shadow-lg"
+            className="inline-block bg-white text-gray-900 font-bold px-8 py-4 rounded-full hover:bg-blue-600 transition text-lg shadow-lg"
           >
             Explore Rooms →
           </Link>
