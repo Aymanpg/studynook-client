@@ -20,11 +20,26 @@ const Navbar = () => {
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
 
-        {/* Logo */}
-        <Link to="/" className="flex items-center gap-1">
-          <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-gray-900 bg-clip-text text-transparent">Study</span>
-          <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-gray-900 bg-clip-text text-transparent">Nook</span>
-        </Link>
+{/* Logo */}
+<Link to="/" className="flex items-center gap-1">
+  
+  {/* SVG Icon */}
+  <img
+    src="https://cdn-icons-png.flaticon.com/512/29/29302.png"
+    alt="StudyNook Logo"
+    className="w-7 h-7"
+  />
+
+  {/* Gradient Text */}
+  <div className="flex items-center">
+    <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-gray-900 bg-clip-text text-transparent">
+      Study
+    </span>
+    <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-gray-900 bg-clip-text text-transparent">
+      Nook
+    </span>
+  </div>
+</Link>
 
         {/* Desktop Nav Links */}
         <div className="hidden md:flex items-center gap-6">

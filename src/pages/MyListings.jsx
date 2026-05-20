@@ -104,18 +104,18 @@ const MyListings = () => {
 
   return (
     <Layout>
-      <div className="min-h-screen bg-gray-50 py-10 px-4">
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 to-blue-600 py-10 px-4">
         <div className="max-w-6xl mx-auto">
 
           {/* Header */}
           <div className="flex items-center justify-between mb-8">
             <div>
-              <h1 className="text-3xl font-bold text-gray-800">My Listings</h1>
-              <p className="text-gray-500 mt-1">Manage your study rooms</p>
+              <h1 className="text-3xl font-bold text-white">My Listings</h1>
+              <p className="text-blue-200 mt-1">Manage your study rooms</p>
             </div>
             <Link
               to="/add-room"
-              className="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition font-medium"
+              className="bg-white text-blue-800 px-5 py-2 rounded-lg hover:bg-black hover:text-white transition font-medium"
             >
               + Add New Room
             </Link>
@@ -132,7 +132,7 @@ const MyListings = () => {
               <p className="text-gray-500 mb-6">Start earning by listing your first study room</p>
               <Link
                 to="/add-room"
-                className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+                className="bg-gradient-to-br from-gray-900 to-blue-600 text-white px-6 py-3 rounded-lg hover:to-blue-800 transition"
               >
                 Add Your First Room
               </Link>
@@ -316,7 +316,7 @@ const MyListings = () => {
               <button
                 onClick={() => handleUpdate(editModal)}
                 disabled={updating}
-                className="flex-1 bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition disabled:opacity-50"
+                className="flex-1 bg-gradient-to-br from-gray-900 to-blue-600 text-white py-2 rounded-lg hover:to-blue-800 transition disabled:opacity-50"
               >
                 {updating ? 'Updating...' : 'Update Room'}
               </button>

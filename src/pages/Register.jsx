@@ -164,7 +164,7 @@ const Register = () => {
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition disabled:opacity-50"
+              className="w-full bg-gradient-to-br from-gray-900 to-blue-600 text-white py-3 rounded-lg font-semibold hover:to-blue-800 transition disabled:opacity-50"
             >
               {loading ? 'Creating Account...' : 'Register'}
             </button>
@@ -180,7 +180,7 @@ const Register = () => {
           {/* Google Register */}
           <button
             onClick={handleGoogleLogin}
-            className="w-full flex items-center justify-center gap-3 border border-gray-300 py-3 rounded-lg hover:bg-gray-50 transition font-medium text-gray-700"
+            className="w-full flex items-center justify-center gap-3 border border-gray-300 py-3 rounded-lg hover:bg-gradient-to-br from-gray-900 to-blue-600 hover:text-white transition font-medium text-gray-700"
           >
             <img
               src="https://www.google.com/favicon.ico"

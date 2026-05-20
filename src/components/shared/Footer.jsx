@@ -31,7 +31,7 @@ const Footer = () => {
           <h3 className="text-white font-semibold text-lg mb-3">Contact Us</h3>
           <ul className="space-y-2 text-sm">
             <li>📧 support@studynook.com</li>
-            <li>📞 +1 (555) 123-4567</li>
+            <li>📞 +880 1610129402</li>
           </ul>
 
           {/* Social Icons */}

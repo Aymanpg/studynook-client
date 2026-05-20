@@ -35,13 +35,13 @@ const NotFound = () => {
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link
               to="/"
-              className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition"
+              className="bg-gradient-to-br from-gray-900 to-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:to-blue-800 transition"
             >
               Back to Home
             </Link>
             <Link
               to="/rooms"
-              className="border border-blue-600 text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition"
+              className="bg-gradient-to-br from-gray-900 to-blue-600 text-white  px-8 py-3 rounded-full font-semibold hover:to-blue-800 transition"
             >
               Browse Rooms
             </Link>

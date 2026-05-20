@@ -40,7 +40,7 @@ const Home = () => {
           </p>
           <Link
             to="/rooms"
-            className="inline-block bg-white text-gray-900 font-bold px-8 py-4 rounded-full hover:bg-blue-600 transition text-lg shadow-lg"
+            className="inline-block bg-white text-gray-900 font-bold px-8 py-4 rounded-full hover:bg-gray-900 hover:text-white transition text-lg shadow-lg"
           >
             Explore Rooms →
           </Link>
@@ -65,13 +65,13 @@ const Home = () => {
       </section>
 
       {/* Latest Rooms Section */}
-      <section className="py-16 px-4 bg-gray-50">
+      <section className="py-16 px-4 bg-gradient-to-br from-gray-900 to-blue-600">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-10">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
+            <h2 className="text-3xl md:text-4xl font-bold text-white">
               Available Study Rooms
             </h2>
-            <p className="text-gray-500 mt-3 text-lg">
+            <p className="text-gray-300 mt-3 text-lg">
               Browse our latest study rooms and book instantly
             </p>
           </div>
@@ -95,7 +95,7 @@ const Home = () => {
           <div className="text-center mt-10">
             <Link
               to="/rooms"
-              className="inline-block bg-blue-600 text-white font-semibold px-8 py-3 rounded-full hover:bg-blue-700 transition"
+              className="inline-block bg-white text-gray-900 font-semibold px-8 py-3 rounded-full hover:bg-blue-800 hover:text-white transition"
             >
               View All Rooms
             </Link>
@@ -136,11 +136,11 @@ const Home = () => {
                 icon: '📚'
               }
             ].map((item, i) => (
-              <div key={i} className="text-center p-8 rounded-2xl border border-gray-100 hover:shadow-lg transition">
+              <div key={i} className="bg-gradient-to-br from-gray-900 to-blue-600 text-center p-8 rounded-2xl border border-gray-100 hover:to-blue-800 transition">
                 <div className="text-5xl mb-4">{item.icon}</div>
-                <div className="text-blue-600 font-bold text-sm mb-2">STEP {item.step}</div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3">{item.title}</h3>
-                <p className="text-gray-500">{item.description}</p>
+                <div className="text-blue-200 font-bold text-sm mb-2">STEP {item.step}</div>
+                <h3 className="text-xl font-bold text-white mb-3">{item.title}</h3>
+                <p className="text-gray-100">{item.description}</p>
               </div>
             ))}
           </div>
@@ -148,13 +148,13 @@ const Home = () => {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="py-16 px-4 bg-blue-600 text-white">
+      <section className="py-16 px-4 bg-gradient-to-br from-gray-900 to-blue-600 text-black">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-10">
-            <h2 className="text-3xl md:text-4xl font-bold">
+            <h2 className="text-3xl text-white md:text-4xl font-bold">
               Why Choose StudyNook?
             </h2>
-            <p className="text-blue-100 mt-3 text-lg">
+            <p className="text-white mt-3 text-lg">
               Everything you need for a perfect study session
             </p>
           </div>
@@ -166,10 +166,10 @@ const Home = () => {
               { icon: '💰', title: 'Best Rates', desc: 'Find affordable study rooms that fit your budget' },
               { icon: '🌟', title: 'Top Rated Rooms', desc: 'All rooms are verified and highly rated by students' },
             ].map((item, i) => (
-              <div key={i} className="bg-blue-700 rounded-2xl p-6 text-center hover:bg-blue-800 transition">
+              <div key={i} className="bg-white rounded-2xl p-6 text-center hover:bg-gradient-to-br from-gray-900 to-blue-600 hover:text-white transition">
                 <div className="text-4xl mb-3">{item.icon}</div>
                 <h3 className="font-bold text-lg mb-2">{item.title}</h3>
-                <p className="text-blue-200 text-sm">{item.desc}</p>
+                <p className="text-black text-sm hover:text-white">{item.desc}</p>
               </div>
             ))}
           </div>

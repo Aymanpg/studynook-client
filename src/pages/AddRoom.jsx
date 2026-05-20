@@ -69,13 +69,13 @@ const AddRoom = () => {
 
   return (
     <Layout>
-      <div className="min-h-screen bg-gray-50 py-10 px-4">
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 to-blue-600 py-10 px-4">
         <div className="max-w-2xl mx-auto">
 
           {/* Header */}
           <div className="text-center mb-8">
-            <h1 className="text-3xl font-bold text-gray-800">Add New Room</h1>
-            <p className="text-gray-500 mt-2">List your study room and start earning</p>
+            <h1 className="text-3xl font-bold text-white">Add New Room</h1>
+            <p className="text-blue-200 mt-2">List your study room and start earning</p>
           </div>
 
           <div className="bg-white rounded-2xl shadow-sm p-8">
@@ -221,7 +221,7 @@ const AddRoom = () => {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full bg-gradient-to-br from-gray-900 to-blue-600 text-white py-3 rounded-lg font-semibold hover:to-blue-800 transition disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {loading ? 'Adding Room...' : 'Add Room'}
               </button>

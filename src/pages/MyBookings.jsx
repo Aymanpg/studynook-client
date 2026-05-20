@@ -74,12 +74,12 @@ const MyBookings = () => {
 
   return (
     <Layout>
-      <div className="min-h-screen bg-gray-50 py-10 px-4">
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 to-blue-600 py-10 px-4">
         <div className="max-w-5xl mx-auto">
 
           <div className="mb-8">
-            <h1 className="text-3xl font-bold text-gray-800">My Bookings</h1>
-            <p className="text-gray-500 mt-1">Manage all your room bookings</p>
+            <h1 className="text-3xl font-bold text-white">My Bookings</h1>
+            <p className="text-blue-200 mt-1">Manage all your room bookings</p>
           </div>
 
           {loading ? (

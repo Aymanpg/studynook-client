@@ -51,7 +51,7 @@ const RoomCard = ({ room }) => {
         <div className="mt-auto">
           <Link
             to={`/rooms/${room._id}`}
-            className="block text-center bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition font-medium"
+            className="block text-center bg-gradient-to-br from-gray-900 to-blue-600 text-white py-2 px-4 rounded-lg  hover:to-blue-800 transition font-medium"
           >
             View Details
           </Link>

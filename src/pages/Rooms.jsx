@@ -62,15 +62,15 @@ const Rooms = () => {
 
   return (
     <Layout>
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 to-blue-600">
 
         {/* Page Header */}
-        <div className="bg-gradient-to-br from-gray-900 to-blue-600 text-white py-12 px-4">
+        <div className="bg-white text-blue-900 py-12 px-4">
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-3xl md:text-4xl font-bold mb-3">
               Available Study Rooms
             </h1>
-            <p className="text-blue-100 text-lg">
+            <p className="text-blue-700 text-lg">
               Find and book the perfect study room for your needs
             </p>
           </div>
@@ -138,7 +138,7 @@ const Rooms = () => {
 
               {/* Results Count */}
               <div className="flex items-center justify-between mb-6">
-                <p className="text-gray-500 text-sm">
+                <p className="text-white text-sm">
                   {loading ? 'Loading...' : `${rooms.length} room${rooms.length !== 1 ? 's' : ''} found`}
                 </p>
               </div>
