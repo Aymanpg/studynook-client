@@ -70,13 +70,13 @@ const Navbar = () => {
             <>
               <Link
                 to="/login"
-                className="px-4 py-2 text-blue-600 border border-blue-600 rounded-lg hover:bg-blue-50 transition font-medium"
+                className="px-4 py-2 text-white bg-gradient-to-br from-gray-900 to-blue-600 rounded-lg hover:from-gray-800 hover:to-blue-500 transition font-medium"
               >
                 Login
               </Link>
               <Link
                 to="/register"
-                className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-medium"
+                className="px-4 py-2 text-white bg-gradient-to-br from-gray-900 to-blue-600 rounded-lg hover:from-gray-800 hover:to-blue-500 transition font-medium"
               >
                 Register
               </Link>

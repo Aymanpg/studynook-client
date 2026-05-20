@@ -57,7 +57,7 @@ const Home = () => {
             { number: '98%', label: 'Satisfaction Rate' },
           ].map((stat, i) => (
             <div key={i} className="p-4">
-              <p className="text-3xl font-bold text-blue-600">{stat.number}</p>
+              <p className="text-3xl font-bold text-blue-900">{stat.number}</p>
               <p className="text-gray-500 mt-1">{stat.label}</p>
             </div>
           ))}
